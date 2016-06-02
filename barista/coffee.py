@@ -8,8 +8,9 @@ COFFEES = [Coffee('Americano', 1.50),
            Coffee('Cappuccino', 2.00),
            Coffee('Espresso', 1.30),
            Coffee('Latte Macchiato', 2.20),
-           Coffee('Moccaccino', 2.30),]
-
+           Coffee('Moccaccino', 2.30),
+	   Coffee('Knallerboot', 5.00) ]
+	
 
 class CoffeeMachine(object):
     def __init__(self, name: str, factor: float = 1.0):
